@@ -5,10 +5,11 @@ import { AppRoutingModule } from "./app-routing.module";
 
 import { AppComponent } from "./app.component";
 import { HomeComponent } from "./home/home.component";
+import { ProfiloComponent } from "./profilo/profilo.component";
 
 @NgModule({
     imports: [BrowserModule, ReactiveFormsModule, AppRoutingModule],
-    declarations: [AppComponent, HomeComponent],
+    declarations: [AppComponent, HomeComponent, ProfiloComponent],
     bootstrap: [AppComponent],
 })
 export class AppModule {}
